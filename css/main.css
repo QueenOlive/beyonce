@@ -97,11 +97,24 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+html {
+    box-sizing: border-box;
+}
 
+*, *:before, *:after {
+    box-sizing: inherit;
+}
 
+body {
+	font-family: helvetica, arial, sans-serif;
 
+/* .page-header */
 
+/* .main-content */
 
+/* .main-nav */
+	
+/* .footer-nav */
 
 
 
