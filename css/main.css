@@ -160,7 +160,7 @@ textarea {
 		color: #000;
 		text-decoration: none;
 	}
-	li:hover {
+	.main-nav li:hover {
 		background-color: #eee;
 	}
 
