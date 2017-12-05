@@ -167,12 +167,7 @@ textarea {
 /* .main-content */
 	
 	.carousel {
-		margin: 150px 0 10px 0;
-	}
-	
-	.project-thumb {
-		width: 33%;
-		float: left;
+		margin: 165px 0 10px 0;
 	}
 	
 	h2 {
@@ -188,10 +183,14 @@ textarea {
 	}
 	
 	.project-thumb {
+		width: 33%;
+		height: 35em;
+		float: left;
 		text-align: center;
 		font-size: .8em;
 		font-weight: lighter;
 	}
+	
 	.project-thumb h3{
 		text-align: center;
 		font-size: 1.3em;
