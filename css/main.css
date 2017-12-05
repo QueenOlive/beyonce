@@ -130,6 +130,7 @@ textarea {
 		margin: auto;
 		padding: 1em;
 		position: fixed;
+		z-index: 100;
 		width: 100%;
 		top: 0;
 		left: 0;
@@ -189,6 +190,20 @@ textarea {
 		text-align: center;
 		font-size: .8em;
 		font-weight: lighter;
+		position: relative;
+		display: inline-block;
+	}
+	
+	.project-thumb .img-top {
+		display: none;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 99;
+	}
+	
+	.project-thumb:hover .img-top {
+		display: inline;
 	}
 	
 	.project-thumb h3{
